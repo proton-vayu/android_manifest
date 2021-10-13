@@ -1106,4 +1106,7 @@
 
   <!-- ProtonAOSP changes -->
   <include name="proton.xml"/>
+  <!-- vayu  -->
+  <include name="caf.xml"/>
+  <include name="proton-vayu.xml"/>
 </manifest>
