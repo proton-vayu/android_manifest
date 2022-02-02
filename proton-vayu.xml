@@ -82,6 +82,11 @@
   <remove-project name="platform/hardware/qcom/sm8150/vr" />
   <remove-project name="platform/hardware/qcom/sm8150p/gps" />
   <remove-project name="platform/external/tinycompress" />
+
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
+
   <project name="platform/external/tinycompress" path="external/tinycompress" remote="caf_system" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="proton-vayu/android_vendor_qcom-opensource_cryptfs_hw" remote="github-ssh" revision="sc" />
