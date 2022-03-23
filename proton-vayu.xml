@@ -73,16 +73,16 @@
 
   <project name="platform/external/tinycompress" path="external/tinycompress" remote="caf_system" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
-  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="proton-vayu/android_vendor_qcom-opensource_cryptfs_hw" remote="github-ssh" revision="sc" />
+  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="proton-vayu/android_vendor_qcom-opensource_cryptfs_hw" remote="github-ssh" revision="sc-v2" />
   <remove-project name="platform/hardware/qcom/thermal" />
-  <project path="vendor/qcom/opensource/thermal-hal" name="proton-vayu/android_hardware_qcom_thermal" remote="github-ssh" revision="sc" />
-  <project name="proton-vayu/android_kernel_build" path="device/qcom/kernelscripts" remote="github-ssh" revision="sc">
+  <project path="vendor/qcom/opensource/thermal-hal" name="proton-vayu/android_hardware_qcom_thermal" remote="github-ssh" revision="sc-v2" />
+  <project name="proton-vayu/android_kernel_build" path="device/qcom/kernelscripts" remote="github-ssh" revision="sc-v2">
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk" />
   </project>
-  <project path="vendor/qcom/opensource/interfaces" name="proton-vayu/android_vendor_qcom-opensource_interfaces" remote="github-ssh" revision="sc" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="proton-vayu/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github-ssh" revision="sc" />
-  <project path="vendor/qcom/opensource/dataservices" name="proton-vayu/android_vendor_qcom_opensource_dataservices" remote="github-ssh" revision="sc" />
-  <project path="vendor/codeaurora/commonsys/telephony" name="proton-vayu/android_vendor_codeaurora_telephony" remote="github-ssh" revision="sc" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="proton-vayu/android_vendor_qcom_opensource_display-commonsys-intf" remote="github-ssh" revision="sc" />
-  <project path="vendor/qcom/opensource/power" name="proton-vayu/android_vendor_qcom_opensource_power" remote="github-ssh" revision="sc" />
+  <project path="vendor/qcom/opensource/interfaces" name="proton-vayu/android_vendor_qcom-opensource_interfaces" remote="github-ssh" revision="sc-v2" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="proton-vayu/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github-ssh" revision="sc-v2" />
+  <project path="vendor/qcom/opensource/dataservices" name="proton-vayu/android_vendor_qcom_opensource_dataservices" remote="github-ssh" revision="sc-v2" />
+  <project path="vendor/codeaurora/commonsys/telephony" name="proton-vayu/android_vendor_codeaurora_telephony" remote="github-ssh" revision="sc-v2" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="proton-vayu/android_vendor_qcom_opensource_display-commonsys-intf" remote="github-ssh" revision="sc-v2" />
+  <project path="vendor/qcom/opensource/power" name="proton-vayu/android_vendor_qcom_opensource_power" remote="github-ssh" revision="sc-v2" />
 </manifest>
