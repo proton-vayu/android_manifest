@@ -10,6 +10,7 @@
   <remove-project name="device/google/barbet-sepolicy" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/bluejay-kernel" />
   <remove-project name="device/generic/car" />
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin-sepolicy" />
